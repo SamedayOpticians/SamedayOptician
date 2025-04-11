@@ -1561,8 +1561,7 @@ to {opacity: 1}
     height: 140vh;
   }
   #banner-6{
-    background-image: url("img/banner/banner6.png");
-    height: 60vh;
+    display: none;
   }
   #banner-8{
     background-image: url("img/banner/banner8.png");
