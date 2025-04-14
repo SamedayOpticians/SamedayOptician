@@ -229,11 +229,4 @@ window.addEventListener("load", initSlider);
 
 
 
-
-
-
-
-
-
-
-
+window.open('search.html', '_blank');

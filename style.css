@@ -2162,7 +2162,13 @@ section1{
 }*/
 
 @media only screen and (min-width: 1440px) {
-  a .normal_versace{
+  a .normal_versace, .nav__search{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav__search{
     display: none;
   }
 }
@@ -2171,4 +2177,37 @@ section1{
   a .normal_versace{
     display: none;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav__actions {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.nav__search{
+  font-size: 1.1rem;
+  color: var(--title-color);
+  cursor: pointer;
+  position: relative;
+  transition: color .4s;
+  margin-left: auto;
+  margin-right: 5px;
 }
