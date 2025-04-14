@@ -801,7 +801,37 @@ body {
   align-items: center;
   text-align: center;
   background-image: url("img/features/sb10.png");
-  width: 99%;
+  width: 90%;
+  border-radius: 25px;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-15{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/features/sb15.png");
+  width: 90%;
+  border-radius: 25px;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner-13{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/features/sb13.png");
+  width: 90%;
   border-radius: 25px;
   height: 55vh;
   background-size: cover;
@@ -1588,6 +1618,14 @@ to {opacity: 1}
     background-image: url("img/banner/banner8.png");
     height: 140vh;
   }
+  #banner-13{
+    background-image: url("img/features/sb-13.png");
+    height: 150vh;
+  }
+  #banner-15{
+    background-image: url("https://www.tomfordfashion.com/dw/image/v2/BKFT_PRD/on/demandware.static/-/Sites-tomford-Library/default/dwf7b737b9/images/HOMEPAGES/2025/03.18.2025/APPROVED/HOMEPAGE/WEBSITE_OVERVIEW_MARCH_25_PART_2_V9_7.jpg?sw=2000");
+    height: 140vh;
+  }
 
 
   /* Contact Page */
@@ -1714,16 +1752,32 @@ to {opacity: 1}
   }
   #banner-8{
     background-image: url("https://assets.armani.com/image/upload/f_auto,q_auto,ar_4:5,w_1125,c_lfill/SS25_EA_ADV_GLOBAL_EYEWEAR_US_02_1080x1350");
-    width: 90;
+    width: 90%;
     border-radius: 20px;
     height: 120vh;
     margin-bottom: 30px;
   }
   #banner-12{
     background-image: url("https://assets.armani.com/image/upload/f_auto,q_auto,ar_4:5,w_1125,c_lfill/SS25_EA_ADV_GLOBAL_EYEWEAR_US_02_1080x1350");
-    width: 90;
+    width: 90%;
     border-radius: 20px;
     height: 120vh;
+    margin-bottom: 30px;
+  }
+
+  #banner-13{
+    background-image: url("https://asset.swarovski.com/images/c_crop,g_xy_center,w_2663,h_3546,x_1667,y_2559/dpr_1.0,f_auto,q_auto,c_lfill,w_1024,h_1365/swa-cms/250212_SWAROVSKI_MIAMI_05_067_300DPI_RGB/.jpg");
+    width: 90%;
+    border-radius: 20px;
+    height: 120vh;
+    margin-bottom: 30px;
+  }
+
+  #banner-15{
+    background-image: url("https://www.tomfordfashion.com/dw/image/v2/BKFT_PRD/on/demandware.static/-/Sites-tomford-Library/default/dw77d2d733/images/HOMEPAGES/2025/03.18.2025/APPROVED/HOMEPAGE/WEBSITE_OVERVIEW_MARCH_25_PART_2_V9_8.jpg?sw=767");
+    width: 90%;
+    border-radius: 20px;
+    height: 130vh;
     margin-bottom: 30px;
   }
 
