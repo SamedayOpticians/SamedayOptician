@@ -2285,3 +2285,97 @@ section1{
   margin-left: auto;
   margin-right: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+#body101{
+  width: 100%;
+  height: 100vh;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-container{
+  width: 375px;
+  height: 520px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  overflow-y: scroll;
+  transition: 0.1s ease;
+}
+
+.search-container::-webkit-scrollbar{
+  display: none;
+}
+
+.search-container form{
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.8);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-container input{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 10px;
+}
+
+.search-container form i{
+  padding-left: 10px;
+}
+
+.pro-list{
+  padding: 20px 0;
+}
+
+.prods{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+
+.prods img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  /*border: 1px solid black;
+  margin-top: 10px;
+  margin-right: 15px;*/
+}
+
+.prods .p-details{
+  padding-left: 15px;
+}
+
+.prods .p-details h2{
+  font-size: 13px;
+  color: #00172c;
+}
+
+.prods .p-details h3{
+  font-size: 15px;
+  color: #00172c;
+}
