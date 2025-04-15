@@ -823,6 +823,16 @@ body {
   background-position: center;
 }
 
+.classic_video{
+  width: 95%;
+  height: auto;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
 #banner-13{
   display: flex;
   margin: 0 auto;
@@ -1451,8 +1461,8 @@ to {opacity: 1}
 }
 #about p{
   text-align: center;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #about strong, h2, p{
@@ -2312,7 +2322,7 @@ section1{
   height: 520px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  /*box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);*/
   padding: 20px;
   overflow-y: scroll;
   transition: 0.1s ease;
