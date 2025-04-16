@@ -2383,9 +2383,18 @@ section1{
 .prods .p-details h2{
   font-size: 13px;
   color: #00172c;
+  line-height: 1.4;
+}
+
+.prods .p-details h2 a{
+  color: #00172c;
 }
 
 .prods .p-details h3{
   font-size: 15px;
+  color: #00172c;
+}
+
+.prods .p-details h3 a{
   color: #00172c;
 }
