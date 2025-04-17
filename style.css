@@ -2252,13 +2252,19 @@ section1{
 }
 
 @media only screen and (min-width: 1024px) {
-  .nav__search{
+  .nav__searchmobile{
     display: none;
   }
 }
 
 @media only screen and (min-width: 768px) {
   a .normal_versace{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .desktop_only{
     display: none;
   }
 }
@@ -2294,6 +2300,11 @@ section1{
   transition: color .4s;
   margin-left: auto;
   margin-right: 5px;
+}
+
+.nav-search{
+  margin-left: 5px;
+  font-size: medium;
 }
 
 
@@ -2397,4 +2408,9 @@ section1{
 
 .prods .p-details h3 a{
   color: #00172c;
+}
+
+
+.nav_search{
+  margin-left: 5px;
 }
