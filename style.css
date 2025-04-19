@@ -2588,6 +2588,18 @@ section1{
   cursor: pointer;
 }
 
+.add-to-cart i:hover{
+  background: #001629;
+  background: linear-gradient(to bottom right, #001629, #001629);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
 .cart-model {
   position: fixed;
   top: 0;
