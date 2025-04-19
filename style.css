@@ -2312,7 +2312,7 @@ section1{
   cursor: pointer;
   position: relative;
   transition: color .4s;
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 .nav-search{
@@ -2777,6 +2777,12 @@ section1{
 @media (min-width: 768px) {
   .nav__wish{
     margin-left: 520px;
+  }
+}
+
+@media (min-width: 375px) {
+  .nav__wish{
+    margin-left: 160px;
   }
 }
 
