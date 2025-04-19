@@ -19,6 +19,11 @@
             <nav class="nav container">
                 <div class="nav__data">
                     <img src="img/logo1.png" alt="" class="nav__logo" onclick="window.location.href='index.html'">
+
+                    <div class="cart-icon nav__wish nav__searchmobile" id="cart-icon search-btn">
+                        <i class="ri-heart-line"></i>
+                        <span id="cart-count">0</span>
+                    </div>
     
                     <i class="ri-search-line nav__search nav__searchmobile" id="search-btn" onclick="window.location.href='search.html'"></i>
 
@@ -190,82 +195,110 @@
             </div>
         </section>
 
-        <section id="product1" class="section-p1">
-            <h2>FERRARI</h2>
-            <p>All Latest Ferrari's Collection in one place. </p>
-            <div class="pro-container">
+        <div class="products container">
 
-                <a href="ferrari1.html">  <div class="pro">
-                    <img src="img/ferrari/f1.png" alt="">
-                    <div class="des">
-                        <span>Ferrari</span>
-                        <h5>Ray-Ban for Scuderia Ferrari RB3807M in Black Metal with Dark Grey Lenses</h5>
-                        <div class="star">
+            <div class="product-card">
+                <img src="img/ferrari/f1.png" alt="" class="product-image" onclick="window.location.href='ferrari1.html'">
+                <p class="brand-name">Ferrari</p>
+                <h2 class="product-name" onclick="window.location.href='ferrari1.html'">Ray-Ban for Scuderia Ferrari RB3807M in Black Metal with Dark Grey Lenses</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='ferrari1.html'">
+                        <h2 class="product-price">₹23939</h2>
+                        <p class="stars">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                        </div>
-                        <h4>₹23939</h4>
+                        </p>
                     </div>
-                    <a href="ferrari1.html"><i class="fas fa-arrow-right cart"></i></a>
-                </div>  </a>
-
-                <a href="ferrari2.html">  <div class="pro">
-                    <img src="img/ferrari/f2.png" alt="">
-                    <div class="des">
-                        <span>Ferrari</span>
-                        <h5>Ray-Ban for Scuderia Ferrari RB3762M in Silver-Tone & Matt Light Blue Metal with Gradient Grey Lenses</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>₹30799</h4>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
                     </div>
-                    <a href="ferrari2.html"><i class="fas fa-arrow-right cart"></i></a>
-                </div>  </a>
-
-                <a href="ferrari3.html">  <div class="pro">
-                    <img src="img/ferrari/f3.png" alt="">
-                    <div class="des">
-                        <span>Ferrari</span>
-                        <h5>Ferrari Sunglasses in Gold-Tone Titanium with Exclusive Contrast Pro™ Lenses</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>₹60729</h4>
-                    </div>
-                    <a href="ferrari3.html"><i class="fas fa-arrow-right cart"></i></a>
-                </div>  </a>
-
-                <a href="ferrari4.html">  <div class="pro">
-                    <img src="img/ferrari/f4.png" alt="">
-                    <div class="des">
-                        <span>Ferrari</span>
-                        <h5>Ferrari Sunglasses in Gunmetal Grey Titanium with Green Lenses</h5>
-                        <div class="star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>₹60729</h4>
-                    </div>
-                    <a href="ferrari4.html"><i class="fas fa-arrow-right cart"></i></a>
-                </div>  </a>
-                
+                </div>
             </div>
-        </section>
+    
+            <div class="product-card">
+                <img src="img/ferrari/f2.png" alt="" class="product-image" onclick="window.location.href='ferrari2.html'">
+                <p class="brand-name">Ferrari</p>
+                <h2 class="product-name" onclick="window.location.href='ferrari2.html'">Ray-Ban for Scuderia Ferrari RB3762M in Silver-Tone & Matt Light Blue Metal with Gradient Grey Lenses</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='ferrari2.html'">
+                        <h2 class="product-price">₹30799</h2>
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <img src="img/ferrari/f3.png" alt="" class="product-image" onclick="window.location.href='ferrari3.html'">
+                <p class="brand-name">Ferrari</p>
+                <h2 class="product-name" onclick="window.location.href='ferrari3.html'">Ferrari Sunglasses in Gold-Tone Titanium with Exclusive Contrast Pro™ Lenses</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='ferrari3.html'">
+                        <h2 class="product-price">₹60729</h2>
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <img src="img/ferrari/f4.png" alt="" class="product-image" onclick="window.location.href='ferrari4.html'">
+                <p class="brand-name">Ferrari</p>
+                <h2 class="product-name" onclick="window.location.href='ferrari4.html'">Ferrari Sunglasses in Gunmetal Grey Titanium with Green Lenses</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='ferrari4.html'">
 
+                        <h2 class="product-price">₹60729</h2>
+
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="cart-model" id="cart-model">
+            <div class="cart-head">
+                <h2>Your Wishlist</h2>
+                <button class="close-btn">X</button>
+            </div>
+    
+            <ul id="cart-items">
+    
+            </ul>
+    
+            <div class="cart-total">Total: ₹<span id="total-price">0</span></div>
+            <div class="checkout-btn">Explore More</div>
+        </div>
 
         <footer>
             <div class="footer_container">
@@ -319,6 +352,7 @@
             </div>
         </footer>
 
+        <script src="test.js"></script>
         <script src="script.js"></script>
     </body>
 
