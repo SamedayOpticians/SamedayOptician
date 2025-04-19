@@ -2786,6 +2786,12 @@ section1{
   }
 }
 
+@media (min-width: 425px) {
+  .nav__wish{
+    margin-left: 200px;
+  }
+}
+
 .price-data .stars{
   color: #e2de00;
 }
