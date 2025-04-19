@@ -2304,7 +2304,7 @@ section1{
   transition: color .4s;
   margin-left: auto;
   margin-right: 5px;
-}
+} /*Very Important*/
 
 .nav__wish{
   font-size: 1.1rem;
@@ -2312,8 +2312,7 @@ section1{
   cursor: pointer;
   position: relative;
   transition: color .4s;
-  margin-left: auto;
-  margin-right: 5px;
+  margin-left: 210px;
 }
 
 .nav-search{
@@ -2496,7 +2495,7 @@ section1{
 }
 
 .cart-icon i{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .cart-icon span {
@@ -2772,6 +2771,12 @@ section1{
 
   .cart-model {
       padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__wish{
+    margin-left: 520px;
   }
 }
 
