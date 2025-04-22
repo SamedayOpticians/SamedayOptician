@@ -2245,11 +2245,11 @@ section1{
   position: relative;
 }*/
 
-@media only screen and (min-width: 1440px) {
+/*@media only screen and (min-width: 1440px) {
   a .normal_versace, .nav__search{
     display: none;
   }
-}
+}*/
 
 @media only screen and (min-width: 1024px) {
   .nav__searchmobile{
@@ -2790,6 +2790,36 @@ section1{
 @media (min-width: 425px) {
   .nav__wish{
     margin-left: 200px;
+  }
+}
+
+@media (min-width: 475px) {
+  .nav__wish{
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 515px) {
+  .nav__wish{
+    margin-left: 290px;
+  }
+}
+
+@media (min-width: 570px) {
+  .nav__wish{
+    margin-left: 340px;
+  }
+}
+
+@media (min-width: 625px) {
+  .nav__wish{
+    margin-left: 380px;
+  }
+}
+
+@media (min-width: 675px) {
+  .nav__wish{
+    margin-left: 430px;
   }
 }
 
