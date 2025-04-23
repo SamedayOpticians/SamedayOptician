@@ -2255,10 +2255,6 @@ section1{
   .nav__searchmobile{
     display: none;
   }
-
-  .section-k1{
-    padding: 40px 260px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
