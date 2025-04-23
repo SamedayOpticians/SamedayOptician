@@ -2245,15 +2245,19 @@ section1{
   position: relative;
 }*/
 
-/*@media only screen and (min-width: 1440px) {
-  a .normal_versace, .nav__search{
+@media only screen and (min-width: 1440px) {
+  a .normal_versace{
     display: none;
   }
-}*/
+}
 
 @media only screen and (min-width: 1024px) {
   .nav__searchmobile{
     display: none;
+  }
+
+  .section-k1{
+    padding: 40px 260px;
   }
 }
 
