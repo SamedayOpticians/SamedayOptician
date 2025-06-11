@@ -25,7 +25,7 @@
 }
 @media screen and (min-width: 1024px) {
   :root {
-    --normal-font-size: 1rem;
+    --normal-font-size: 0.9rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
@@ -112,6 +112,9 @@ a {
 .nav__toggle-close {
   opacity: 0;
 }
+
+
+
 @media screen and (max-width: 1118px) {
   .nav__menu {
     background-color: var(--body-color);

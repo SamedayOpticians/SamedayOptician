@@ -2264,11 +2264,11 @@ section1{
 }
 
 .desktop_only{
-  border: 1.5px solid #002442;
+  border: 2px solid #002442;
   border-radius: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
+  padding-left: 13px;
+  padding-right: 12px;
+  font-size: 0.9rem;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 20px;
@@ -2322,14 +2322,14 @@ section1{
   font-size: 1.1rem;
   color: var(--title-color);
   cursor: pointer;
-  position: relative;
+  position: static;
   transition: color .4s;
-  margin-left: 200px;
+  margin-right: 45px;
 }
 
 .nav-search{
   margin-left: 5px;
-  font-size: medium;
+  font-size: 0.9rem;
 }
 
 .nav-wish{
@@ -2445,11 +2445,6 @@ section1{
 .nav_search{
   margin-left: 5px;
 }
-
-
-
-
-
 
 
 
@@ -2796,6 +2791,12 @@ section1{
 @media (min-width: 375px) {
   .nav__wish{
     margin-left: 160px;
+  }
+}
+
+@media (min-width: 349px) {
+  .nav__wish{
+    margin-left: 120px;
   }
 }
 
