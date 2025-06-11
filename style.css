@@ -2263,6 +2263,18 @@ section1{
   }
 }
 
+.desktop_only{
+  border: 1.5px solid #002442;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 375px) {
   .desktop_only{
     display: none;
