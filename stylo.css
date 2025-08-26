@@ -166,6 +166,7 @@ img {
 .nav__close {
   font-size: 1.4rem;
   color: var(--title-color);
+  place-items: center;
   cursor: pointer;
   transition: color .4s;
 }
