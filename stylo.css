@@ -170,7 +170,7 @@ img {
 }
 
 .nav__close {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: var(--title-color);
   cursor: pointer;
   transition: color .4s;
