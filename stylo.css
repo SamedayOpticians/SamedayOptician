@@ -157,14 +157,14 @@ img {
 .nav__actions {
   display: flex;
   align-items: center;
-  column-gap: 1rem;
+  column-gap: 1.5rem;
 }
 
 .nav__search, 
 .nav__login, 
 .nav__toggle, 
 .nav__close {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: var(--title-color);
   cursor: pointer;
   transition: color .4s;
