@@ -162,9 +162,15 @@ img {
 
 .nav__search, 
 .nav__login, 
-.nav__toggle, 
-.nav__close {
+.nav__toggle {
   font-size: 1.3rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .4s;
+}
+
+.nav__close {
+  font-size: 1.7rem;
   color: var(--title-color);
   cursor: pointer;
   transition: color .4s;
