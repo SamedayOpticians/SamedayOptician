@@ -157,7 +157,7 @@ img {
 .nav__actions {
   display: flex;
   align-items: center;
-  column-gap: 1.5rem;
+  column-gap: 1.6rem;
 }
 
 .nav__search, 
@@ -166,11 +166,11 @@ img {
 .nav__close {
   font-size: 1.4rem;
   color: var(--title-color);
-  align-content: center;
-  align-items: center;
   cursor: pointer;
   transition: color .4s;
 }
+
+
 
 :is(.nav__logo, .nav__search, .nav__login, .nav__toggle, .nav__link):hover {
   color: var(--first-color);
@@ -203,9 +203,9 @@ img {
   transition: color .4s;
 }
 
-.nav__close {
+.nav__close {         /*    Very Important    */
   position: absolute;
-  top: 1.15rem;
+  top: 1rem;
   right: 1.5rem;
 }
 
