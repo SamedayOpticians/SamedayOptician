@@ -480,7 +480,7 @@ body {
   right: -25px;
 }
 .slider-wrapper .image-list {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(10, 1fr);
   gap: 18px;
   font-size: 0;
@@ -1172,7 +1172,12 @@ footer p{
 
 
 .sbb-head h2{
-  font-size: 37px;
+  font-size: 32px;
+}
+
+.sbb-head .sbb-padding {
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .sbb-head h3{
