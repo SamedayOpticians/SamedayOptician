@@ -134,7 +134,7 @@ body {
 }
 
 #ad-banner{
-  background-color: #002544;
+  background-color: #1a1a1a;
 }
 #ad-banner .ad-text p{
   color: #fff;
@@ -906,7 +906,7 @@ body {
 }
 
 #sm-banner .banner-box:hover button{
-  background-color:#001629;
+  background-color:#1a1a1a;
   border: 1px solid #fff;
   color: #ffffff;
   border-radius: 12px;
@@ -916,7 +916,7 @@ body {
 #sm-banner .banner-box button{
   border-radius: 12px;
   background-color: #fff;
-  color: #001629;
+  color: #1a1a1a;
 }
 
 #sm-banner .banner-box11{
@@ -952,7 +952,7 @@ footer{
   width: 100%;
   height: auto;
   padding: 30px 50px;
-  background: #000f1a;
+  background: #1a1a1a;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -1004,7 +1004,7 @@ footer p{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #222;
+  background: #f1f1f1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1014,11 +1014,12 @@ footer p{
 }
 
 .sci li a:hover{
-  background: rgb(0, 132, 255);
+  background: #e7e7e7;
+  transition: 0.1s ease;
 }
 
 .sci li a .fab{
-  color: #fff;
+  color: #1a1a1a;
   font-size: 20px;
 }
 
@@ -1707,7 +1708,7 @@ section1{
 }
 
 .tab-btn{
-  color: #000000 /*var(--text-color-5)*/;
+  color: #1a1a1a /*var(--text-color-5)*/;
   display: inline-block;
   font-weight: 550;
   margin: 0 1px;
@@ -1720,12 +1721,12 @@ section1{
 }
 
 .tab-btn:hover{
-  background: #00172c;
+  background: #1a1a1a;
   color: #ffffff;
 }
 
 .tab-btn.active{
-  background: #00172c;
+  background: #1a1a1a;
   color: #ffffff;
 }
 
@@ -1943,13 +1944,13 @@ section1{
 
 .cart-icon span {
   position: absolute;
-  top: -8px;
-  right: -10px;
+  top: -2px;
+  right: -3px;
   background: #705eb4;
   color: #fff;
   font-size: 12px;
-  padding: 2px 4px;
-  border-radius: 50%;
+  padding: 2px 6px;
+  border-radius: 100%;
 }
 
 .products {
