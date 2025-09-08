@@ -1805,13 +1805,26 @@ section1{
 
 .search-container{
   width: 375px;
-  height: 520px;
+  height: 780px;
   background-color: white;
+  margin-top: 70px;
+  margin-bottom: none;
   border-radius: 15px;
   /*box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);*/
   padding: 20px;
   overflow-y: scroll;
   transition: 0.1s ease;
+}
+
+@media(max-width: 320px) {
+  .search-container {
+    width: 300px;
+  }
+}
+@media(min-width: 768px) {
+  .search-container {
+    width: 500px;
+  }
 }
 
 .search-container::-webkit-scrollbar{
@@ -1820,8 +1833,8 @@ section1{
 
 .search-container form{
   width: 100%;
-  border: 1px solid rgba(0,0,0,0.8);
-  border-radius: 4px;
+  border-bottom: 1.5px solid rgba(88, 88, 88, 0.8);
+  /* border-radius: 4px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1839,6 +1852,7 @@ section1{
 
 .search-container form i{
   padding-left: 10px;
+  color: #666;
 }
 
 .pro-list{
@@ -1868,21 +1882,21 @@ section1{
 
 .prods .p-details h2{
   font-size: 13px;
-  color: #00172c;
+  color: #1a1a1a;
   line-height: 1.4;
 }
 
 .prods .p-details h2 a{
-  color: #00172c;
+  color: #1a1a1a;
 }
 
 .prods .p-details h3{
   font-size: 15px;
-  color: #00172c;
+  color: #1a1a1a;
 }
 
 .prods .p-details h3 a{
-  color: #00172c;
+  color: #1a1a1a;
 }
 
 
